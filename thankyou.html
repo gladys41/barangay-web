@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Barangay San Antonio</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background: linear-gradient(135deg, #2c6e49, #4c956c);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .header-image {
+            width: 100%;
+            max-height: 300px;
+            object-fit: cover; margin-bottom: 15px;
+            border-radius: 8px;
+        }
+        nav {
+            background-color: #2c6e49;
+            padding: 10px 0;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #4c956c;
+        }
+        main {
+            background: white;
+            padding: 30px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 { 
+            color: #1D2E28;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2c6e49;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #4c956c;
+        }
+        footer {
+            background-color: #2c6e49;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+        .thank-you-message {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #e8f5e9;
+            border-radius: 8px;
+        }
+        .thank-you-message h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .thank-you-message p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav ul li {
+                margin: 5px 0;
+            }
+            .thank-you-message h2 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Thank You</h1>
+            <p>Your submission has been received</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <div class="thank-you-message">
+                <h2>Thank You for Your Input!</h2>
+                <p>We appreciate you taking the time to complete our form. Your information has been successfully received and will be processed shortly.</p>
+                <p>A confirmation email will be sent to you if you provided an email address. Our barangay staff will review your submission and contact you if needed.</p>
+                
+                <div style="margin-top: 30px;">
+                    <a href="home.html" class="btn">Return to Homepage</a>
+                </div>
+            </div>
+            
+            <h2>What Happens Next?</h2>
+            <p>Depending on the type of form you submitted, here's what you can expect:</p>
+            
+            <ul>
+                <li><strong>Registration:</strong> Your information will be added to our community database within 3-5 business days.</li>
+                <li><strong>Contact Form:</strong> We will respond to your inquiry within 48 hours.</li>
+                <li><strong>Service Request:</strong> Our staff will assess your request and contact you regarding next steps.</li>
+            </ul>
+
+            <p>If you have any urgent concerns, please don't hesitate to visit our barangay hall or call us at (909) 296-3361.</p>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+           <p>&copy; 2025 Barangay San Antonio. All rights reserved.</p>
+            <p>Contact: (909) 296-3361 | email: blgusanantoniotigaon@gmail.com</p>
+        </div>
+    </footer>
+</body>
+</html>
